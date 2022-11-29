@@ -9,13 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualAcademy.Admin", "Visu
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "VisualAcademy.SqlServer", "VisualAcademy.SqlServer\VisualAcademy.SqlServer.sqlproj", "{858E98C3-35DA-4679-A856-AFD4C6EEC4C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualAcademy.Models", "VisualAcademy.Models\VisualAcademy.Models.csproj", "{41E3C219-8850-49B1-B2CF-278A1DD8C476}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualAcademy.Models", "VisualAcademy.Models\VisualAcademy.Models.csproj", "{41E3C219-8850-49B1-B2CF-278A1DD8C476}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualAcademy.Models.Tests", "VisualAcademy.Models.Tests\VisualAcademy.Models.Tests.csproj", "{05723F0C-0573-40CC-A5A2-15598561E3F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualAcademy.Models.Tests", "VisualAcademy.Models.Tests\VisualAcademy.Models.Tests.csproj", "{05723F0C-0573-40CC-A5A2-15598561E3F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualAcademy.SingleSignOn", "VisualAcademy.SingleSignOn\VisualAcademy.SingleSignOn.csproj", "{3B2AB173-0D85-44D3-8AED-93C6CDF0D6B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualAcademy.SingleSignOn", "VisualAcademy.SingleSignOn\VisualAcademy.SingleSignOn.csproj", "{3B2AB173-0D85-44D3-8AED-93C6CDF0D6B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualAcademy.APIs", "VisualAcademy.APIs\VisualAcademy.APIs.csproj", "{3B182167-6BE0-46A3-9279-EF443F59F7B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualAcademy.APIs", "VisualAcademy.APIs\VisualAcademy.APIs.csproj", "{3B182167-6BE0-46A3-9279-EF443F59F7B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
