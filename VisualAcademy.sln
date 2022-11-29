@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualAcademy", "VisualAcademy\VisualAcademy.csproj", "{AB8CF784-31AD-4C66-A30A-23075C05284F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualAcademy", "VisualAcademy\VisualAcademy.csproj", "{AB8CF784-31AD-4C66-A30A-23075C05284F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualAcademy.Admin", "VisualAcademy.Admin\VisualAcademy.Admin.csproj", "{3109DA21-2B64-4128-BE20-98DD8F388DAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AB8CF784-31AD-4C66-A30A-23075C05284F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB8CF784-31AD-4C66-A30A-23075C05284F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB8CF784-31AD-4C66-A30A-23075C05284F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3109DA21-2B64-4128-BE20-98DD8F388DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3109DA21-2B64-4128-BE20-98DD8F388DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3109DA21-2B64-4128-BE20-98DD8F388DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3109DA21-2B64-4128-BE20-98DD8F388DAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
