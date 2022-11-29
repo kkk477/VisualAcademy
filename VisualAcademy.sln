@@ -5,7 +5,17 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualAcademy", "VisualAcademy\VisualAcademy.csproj", "{AB8CF784-31AD-4C66-A30A-23075C05284F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualAcademy.Admin", "VisualAcademy.Admin\VisualAcademy.Admin.csproj", "{3109DA21-2B64-4128-BE20-98DD8F388DAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisualAcademy.Admin", "VisualAcademy.Admin\VisualAcademy.Admin.csproj", "{3109DA21-2B64-4128-BE20-98DD8F388DAA}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "VisualAcademy.SqlServer", "VisualAcademy.SqlServer\VisualAcademy.SqlServer.sqlproj", "{858E98C3-35DA-4679-A856-AFD4C6EEC4C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualAcademy.Models", "VisualAcademy.Models\VisualAcademy.Models.csproj", "{41E3C219-8850-49B1-B2CF-278A1DD8C476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualAcademy.Models.Tests", "VisualAcademy.Models.Tests\VisualAcademy.Models.Tests.csproj", "{05723F0C-0573-40CC-A5A2-15598561E3F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualAcademy.SingleSignOn", "VisualAcademy.SingleSignOn\VisualAcademy.SingleSignOn.csproj", "{3B2AB173-0D85-44D3-8AED-93C6CDF0D6B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualAcademy.APIs", "VisualAcademy.APIs\VisualAcademy.APIs.csproj", "{3B182167-6BE0-46A3-9279-EF443F59F7B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,28 @@ Global
 		{3109DA21-2B64-4128-BE20-98DD8F388DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3109DA21-2B64-4128-BE20-98DD8F388DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3109DA21-2B64-4128-BE20-98DD8F388DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{858E98C3-35DA-4679-A856-AFD4C6EEC4C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{858E98C3-35DA-4679-A856-AFD4C6EEC4C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{858E98C3-35DA-4679-A856-AFD4C6EEC4C9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{858E98C3-35DA-4679-A856-AFD4C6EEC4C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{858E98C3-35DA-4679-A856-AFD4C6EEC4C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{858E98C3-35DA-4679-A856-AFD4C6EEC4C9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{41E3C219-8850-49B1-B2CF-278A1DD8C476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41E3C219-8850-49B1-B2CF-278A1DD8C476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41E3C219-8850-49B1-B2CF-278A1DD8C476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41E3C219-8850-49B1-B2CF-278A1DD8C476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05723F0C-0573-40CC-A5A2-15598561E3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05723F0C-0573-40CC-A5A2-15598561E3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05723F0C-0573-40CC-A5A2-15598561E3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05723F0C-0573-40CC-A5A2-15598561E3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2AB173-0D85-44D3-8AED-93C6CDF0D6B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2AB173-0D85-44D3-8AED-93C6CDF0D6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2AB173-0D85-44D3-8AED-93C6CDF0D6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2AB173-0D85-44D3-8AED-93C6CDF0D6B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B182167-6BE0-46A3-9279-EF443F59F7B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B182167-6BE0-46A3-9279-EF443F59F7B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B182167-6BE0-46A3-9279-EF443F59F7B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B182167-6BE0-46A3-9279-EF443F59F7B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

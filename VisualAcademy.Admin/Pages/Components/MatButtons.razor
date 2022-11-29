@@ -1,0 +1,49 @@
+﻿@page "/Components/MatButtons"
+
+<!-- Page Heading -->
+<h1 class="h3 mb-4 text-gray-800">MatButtons</h1>
+
+<div class="row">
+
+	<div class="col-lg-12">
+
+		<MatButton OnClick="@Click">Text @ButtonState</MatButton>
+		<MatButton Raised="true">Raised</MatButton>
+		<MatButton Unelevated="true">Unelevated</MatButton>
+		<MatButton Outlined="true">Outlined</MatButton>
+		<MatButton Dense="true">Dense</MatButton>
+	</div>
+	<div class="col-lg-12">
+
+		<p>
+			<MatTextField @bind-Value="@MyString10" HelperText="Helper Text" Label="Label"></MatTextField>
+		</p>
+		<p>
+			<MatTextField @bind-Value="@MyString10" HelperText="Helper Text Persistent" Label="Label" HelperTextPersistent="true"></MatTextField>
+		</p>
+		<p>
+			<MatTextField @bind-Value="@MyString10" HelperText="Helper Text Validation" Label="Label" HelperTextPersistent="true" HelperTextValidation="true"></MatTextField>
+		</p>
+	</div>
+</div>
+@code
+{
+	string ButtonState = "";
+
+	void Click(MouseEventArgs e)
+	{
+		ButtonState = "Clicked";
+	}
+
+	public string MyString10
+	{
+		get => _myString10;
+		set
+		{
+			_myString10 = value;
+			this.StateHasChanged();
+		}
+	}
+
+	private string _myString10;
+}
